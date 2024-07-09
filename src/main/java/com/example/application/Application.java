@@ -4,6 +4,8 @@ import com.vaadin.flow.component.page.AppShellConfigurator;
 import com.vaadin.flow.theme.Theme;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.scheduling.annotation.Scheduled;
 
 /**
  * The entry point of the Spring Boot application.
@@ -13,6 +15,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  */
 @SpringBootApplication
+@EnableScheduling
 @Theme(value = "mytodo")
 public class Application implements AppShellConfigurator {
 
