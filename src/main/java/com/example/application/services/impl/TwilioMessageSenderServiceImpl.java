@@ -12,15 +12,13 @@ import org.springframework.stereotype.Service;
 @Service
 public class TwilioMessageSenderServiceImpl implements TwilioMessageSenderService {
 
-  @Value("${twilio.account.sid}")
-  private String accountSid;
-
+  public static final String ACCOUNT_SID = "AC8dba49022f72a5311688ac88262bbdd2";
   @Value("${twilio.auth.token}")
   private String authToken;
 
   @Override
   public void sendNotification(LocalDate notificationDate) {
-    Twilio.init(accountSid, authToken);
+    Twilio.init(ACCOUNT_SID, authToken);
 
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("EEEE, MMMM dd, yyyy");
     String formattedDate = notificationDate.format(formatter);
