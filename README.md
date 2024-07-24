@@ -39,7 +39,7 @@ The Fast Reminder Project is a tool designed to help users manage their fasting 
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/aniketsabaleapptware/fast-reminder-project.git
 2. Install dependencies and build the project:
 
    ```bash
