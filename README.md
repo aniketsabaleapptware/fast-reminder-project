@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Fast Reminder Project is a tool designed to help users manage their fasting reminders based on the lunar calendar. The application supports both Marathi tithis and weekly reminders. Users will receive notifications via WhatsApp.
+The Fast Reminder Project is a tool designed to help users manage their fasting reminders based on the lunar calendar. The application supports both Marathi tithis and weekly reminders. Users will receive notifications via WhatsApp message.
 
 ## Features
 
@@ -22,8 +22,6 @@ The Fast Reminder Project is a tool designed to help users manage their fasting 
        - **Schedule:** Choose how often the reminder should recur (e.g., every week).
 
 
-3. **Weekly Reminders:**
-   - For weekly reminders, select the Fast Type, Week Days, and Schedule.
 
 ## Getting Started
 
@@ -66,8 +64,4 @@ Access the login page and enter your username and contact number.
        - **Schedule:** Choose how often the reminder should recur (e.g., Once, Every Week).
 
 - You will receive a WhatsApp notification one day before the selected reminder.
-### Weekly Reminder:
-
-Go to the weekly reminder section.
-Choose the Fast Type, Week Days, and Schedule.
 
